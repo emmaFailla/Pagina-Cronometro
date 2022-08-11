@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', monospace;
+}
+
+#main{
+    height: 94vh;
+    width: 100vw;
+    background-color:#fff ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header{
+    height: 6vh;
+    background-color: #f2f2f2;
+    border-bottom: solid black 2px;
+
+}
+
+.logo__container{
+    margin-left: 1rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Silkscreen";
+    font-size:1.5rem;
+}
+
+.cronometro__container{
+    width: 60vw;
+    height: 60vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.tiempo{
+    font-size: 3rem;
+    font-family: "Silkscreen", monospace;
+}
+
+.cronometro{
+    display: flex;
+    align-items: center;
+    border: solid black 3px;
+    height: 20vh;
+    width: 20vw;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.button__container {
+    margin-top: 3rem;
+    display:flex;
+    gap: 10px;
+}
+
+.button{
+    height: 5vh;
+    width: 10vw;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+
+.startStop{
+    background-color: rgb(101, 230, 84);
+}
+
+.reset{
+    background-color: rgb(252, 0, 0);
+}
+
+
+
+/*clases activables*/
+
