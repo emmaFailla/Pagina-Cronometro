@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 #header{
@@ -48,6 +49,29 @@
 
 }
 
+.tiemposGrabados__container{
+    height: 100vh;
+    width: 20vw;
+    position: fixed;
+    display:flex;
+    align-items: center;
+    flex-flow: column;
+    right: 0;
+    top: 6vh;
+    
+
+}
+
+.tiemposGrabados{
+    align-items: center;
+    flex-flow: column;
+    display:flex;
+}
+
+.tiemposGrabados__container h2 {
+    text-align: center;
+}
+
 .tiempo{
     font-size: 3rem;
     font-family: "Silkscreen", monospace;
@@ -57,8 +81,7 @@
     display: flex;
     align-items: center;
     border: solid black 3px;
-    height: 20vh;
-    width: 20vw;
+    padding: 100px;
     font-size: 5rem;
     display: flex;
     justify-content: center;
@@ -79,12 +102,27 @@
     
 }
 
+.grabar{
+    background-color: #5183FF;
+}
+
+.grabar:active{
+    background-color:#2966FF;
+}
+
 .startStop{
-    background-color: rgb(101, 230, 84);
+    background-color: #70FF78;
+}
+
+.startStop:active{
+    background-color: #2EFF39
 }
 
 .reset{
-    background-color: rgb(252, 0, 0);
+    background-color: #FF5151;
+}
+.reset:active{
+    background-color:#FF2C2C ;
 }
 
 
