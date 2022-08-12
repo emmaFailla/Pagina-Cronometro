@@ -1,8 +1,8 @@
 
-let tiempo =58;
+let tiempo =0;
 let intervalo = 0;
 let hora = 0;
-let minutos = 0;
+let minutos = 59;
 let verificador = false;
 let arrayLimitador = [];
 
@@ -66,7 +66,7 @@ function reseteo(){
         tiempo = 0
         minutos = 0
         hora = 0
-        cronometro.innerHTML = "0.00"
+        cronometro.innerHTML = `${hora}:${minutos}:${tiempo.toFixed(2)}` 
         verificador = false
     }
 
